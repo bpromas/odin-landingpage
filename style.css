@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header{
@@ -16,6 +17,53 @@ body{
     font-weight: bold;
     color: #f9faf8;
 
+}
+
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    padding: 96px 128px;
+    gap: 32px;
+}
+
+.hero-left, .hero-right{
+    flex:1;
+}
+
+.hero-right{
+    display: flex;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color:white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    cursor: pointer;
+}
+
+.placeholder {
+    background-color: #6d747d;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul{
